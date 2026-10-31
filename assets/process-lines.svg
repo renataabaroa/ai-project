@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 500" role="img" aria-labelledby="title desc">
+  <title id="title">Four stages of the website</title>
+  <desc id="desc">What AI is, where it helps, what goes wrong, and what might come next are joined by colored lines.</desc>
+  <rect width="700" height="500" fill="#ffe3ce"/>
+  <g fill="none" stroke="#822c4a" stroke-width="4" stroke-linecap="round"><path d="M95 250C170 105 260 100 350 250S530 400 605 250"/><path d="M95 250C180 330 270 350 350 250S530 150 605 250" opacity=".45"/></g>
+  <g stroke="#822c4a" stroke-width="3"><circle cx="95" cy="250" r="31" fill="#ffc09c"/><circle cx="265" cy="170" r="31" fill="#f5a6b6"/><circle cx="440" cy="320" r="31" fill="#d8b5e8"/><circle cx="605" cy="250" r="31" fill="#f0bfa4"/></g>
+  <g font-family="Arial,sans-serif" font-size="16" font-weight="bold" fill="#30242b" text-anchor="middle"><text x="95" y="256">01</text><text x="265" y="176">02</text><text x="440" y="326">03</text><text x="605" y="256">04</text></g>
+</svg>

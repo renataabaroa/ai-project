@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 760" role="img" aria-labelledby="title">
+  <title id="title">Abstract connected rings</title>
+  <rect width="720" height="760" fill="#f7d9df"/>
+  <g fill="none" stroke="#822c4a" opacity=".55">
+    <circle cx="362" cy="374" r="269" stroke-width="1.2"/>
+    <circle cx="362" cy="374" r="215" stroke-width="1.2"/>
+    <circle cx="362" cy="374" r="160" stroke-width="1.2"/>
+    <circle cx="362" cy="374" r="103" stroke-width="1.2"/>
+    <path d="M110 469 526 210M188 175l369 421M90 338l537 66M361 108l3 530" stroke-width=".9"/>
+  </g>
+  <g fill="#822c4a">
+    <circle cx="362" cy="374" r="23"/>
+    <circle cx="526" cy="210" r="9"/>
+    <circle cx="188" cy="175" r="9"/>
+    <circle cx="557" cy="596" r="9"/>
+    <circle cx="110" cy="469" r="9"/>
+  </g>
+  <g fill="#de5f65">
+    <circle cx="516" cy="158" r="21"/>
+    <circle cx="141" cy="235" r="13"/>
+    <circle cx="625" cy="408" r="14"/>
+    <circle cx="332" cy="641" r="16"/>
+  </g>
+  <g fill="none" stroke="#de5f65" stroke-width="1.2">
+    <circle cx="516" cy="158" r="38"/>
+    <circle cx="332" cy="641" r="33"/>
+  </g>
+</svg>

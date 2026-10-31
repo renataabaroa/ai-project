@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fff5ef">
+  <meta name="description" content="AI is already part of how I study, what shows up on my feed, and apparently even how much electricity the US needs.">
+  <title>AI by Renata Abaroa</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Fraunces:opsz,wght,SOFT,WONK@9..144,400,0,1;9..144,600,0,1&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="reading-progress" aria-hidden="true"></div>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="site-mark" href="#top" aria-label="Back to top">AI <span>↗</span></a>
+    <nav class="section-tabs" aria-label="Page sections">
+      <a class="tab-link" href="#what">What is AI?</a>
+      <a class="tab-link" href="#benefits">Where it helps</a>
+      <a class="tab-link" href="#risks">What goes wrong</a>
+      <a class="tab-link" href="#future">The future</a>
+      <a class="tab-link tab-about" href="about.html">How it was made &amp; sources</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow">Artificial intelligence <span class="asterisk">✳</span></p>
+        <p class="byline">By Renata Abaroa</p>
+        <h1 id="hero-title">Who checks it <em>when it gets</em> something wrong<span class="question">?</span></h1>
+        <p class="hero-intro">AI is already part of how I study, what shows up on my feed, and apparently even how much electricity the US needs. I don't think the most interesting question is how smart it is. It's who checks it when it gets something wrong.</p>
+        <a class="read-link" href="#what">What is artificial intelligence? <span aria-hidden="true">↘</span></a>
+      </div>
+      <div class="hero-art">
+        <img src="assets/ai-orbit.svg" alt="Abstract rings connected by fine lines, suggesting an AI system with many linked parts">
+        <span class="art-caption">Input &nbsp; / &nbsp; Logic &nbsp; / &nbsp; Output</span>
+      </div>
+    </section>
+
+
+    <section class="legend" aria-label="Reading guide">
+      <p>To keep things clear, I tagged everything on this site. ‘Fact’ means it's backed by a linked source, ‘My take’ is my own opinion, and ‘Prediction’ is me guessing what might happen.</p>
+      <div class="legend-tags"><span class="tag fact">Fact</span><span class="tag take">My take</span><span class="tag prediction">Prediction</span></div>
+    </section>
+
+    <section class="section section-what" id="what" aria-labelledby="what-title">
+      <div class="section-index"><span>01 / 04</span><span>Input → Logic → Output</span></div>
+      <div class="section-grid">
+        <div class="section-lead">
+          <p class="tag fact">Fact</p>
+          <h2 id="what-title">What is artificial intelligence?</h2>
+          <p>There's no one official definition of AI, but the OECD breaks an AI system into three parts (<a href="https://oecd.ai/en/inside-artificial-intelligence">OECD.AI</a>):</p>
+        </div>
+        <div class="flow" aria-label="Three parts of an AI system">
+          <article class="flow-step"><span class="flow-number">01</span><h3>Input</h3><p>data it collects, like text, photos or sensor readings.</p></article>
+          <span class="flow-arrow" aria-hidden="true">↘</span>
+          <article class="flow-step"><span class="flow-number">02</span><h3>Logic</h3><p>a model that uses that data to make a prediction, recommendation or decision.</p></article>
+          <span class="flow-arrow" aria-hidden="true">↘</span>
+          <article class="flow-step"><span class="flow-number">03</span><h3>Output</h3><p>something that actually happens because of it, like a loan getting approved or a car braking.</p></article>
+        </div>
+      </div>
+      <div class="two-notes">
+        <p><span class="tag fact">Fact</span> Most AI today uses machine learning: nobody writes out all the rules. The system learns patterns from tons of examples. Chatbots learn mostly from text scraped off the internet. The Washington Post looked at one of these datasets and found around 15 million websites in it, including Wikipedia but also pirated book sites and voter databases (<a href="https://www.washingtonpost.com/technology/interactive/2023/ai-chatbot-learning/">Washington Post</a>).</p>
+        <p><span class="tag take">My take</span> A chatbot doesn't understand what it's saying. It predicts what words should come next (purely statistics), so it can only be as accurate, fair, and private as the data it learned from.</p>
+      </div>
+      <div class="check-loop" aria-label="Human review of AI output">
+        <div class="loop-node"><span>01</span><strong>Input</strong></div>
+        <span class="loop-connector" aria-hidden="true">→</span>
+        <div class="loop-node"><span>02</span><strong>Logic</strong></div>
+        <span class="loop-connector" aria-hidden="true">→</span>
+        <div class="loop-node"><span>03</span><strong>Output</strong></div>
+        <span class="loop-connector" aria-hidden="true">→</span>
+        <div class="loop-node human-node"><span>04</span><strong>A person still has to verify it.</strong></div>
+      </div>
+    </section>
+
+    <section class="section section-benefits" id="benefits" aria-labelledby="benefits-title">
+      <div class="section-index"><span>02 / 04</span><span>Where it actually helps me</span></div>
+      <div class="benefit-layout">
+        <div>
+          <p class="tag fact">Fact</p>
+          <h2 id="benefits-title">Where it actually helps me</h2>
+          <p>AI is already used for credit scores, beating humans at games like Go, and helping self-driving cars decide when to brake (<a href="https://oecd.ai/en/inside-artificial-intelligence">OECD.AI</a>). Image generators can also create a picture from one sentence in a few seconds (<a href="https://www.washingtonpost.com/technology/interactive/2022/ai-image-generator/">Washington Post</a>).</p>
+        </div>
+        <div class="benefit-list">
+          <p class="tag take">My take</p>
+          <div><strong>Studying</strong><span>getting a concept explained a few different ways until it makes sense, or turning my handwritten class notes into a clean summary to help me study for an exam.</span></div>
+          <div><strong>Creative work</strong><span>trying out layout ideas for my portfolio before I commit to one.</span></div>
+          <div><strong>Coding</strong><span>I don’t know how to code from scratch, but vibe coding let me build this site anyway.</span></div>
+          <div><strong>Society</strong><span>faster translation, better accessibility tools, and AI helping doctors spot problems in scans earlier.</span></div>
+        </div>
+      </div>
+      <div class="benefit-visual" aria-hidden="true"><span>Studying</span><span>Creative work</span><span>Coding</span><span>Society</span></div>
+    </section>
+
+    <section class="section section-risks" id="risks" aria-labelledby="risks-title">
+      <div class="section-index"><span>03 / 04</span><span>What goes wrong</span></div>
+      <div class="risks-head"><h2 id="risks-title">What goes wrong</h2></div>
+      <div class="risk-cards">
+        <article class="flip-card" data-flip-card>
+          <div class="flip-card-inner">
+            <div class="flip-face flip-front"><span class="card-index">01 / 03</span><span class="card-symbol" aria-hidden="true">↗</span><h3>AI agents can act on their own.</h3><button type="button" class="flip-trigger" aria-expanded="false">Turn to read the fact <span aria-hidden="true">↗</span></button></div>
+            <div class="flip-face flip-back" inert><span class="tag fact">Fact</span><p>In July 2026, OpenAI was testing how good its models were at hacking. The models got out of their isolated test environment and broke into Hugging Face's systems, basically trying to find the answers to the test (<a href="https://openai.com/index/hugging-face-incident-and-the-road-ahead/">OpenAI</a>, <a href="https://huggingface.co/blog/agent-intrusion-technical-timeline">Hugging Face</a>).</p><button type="button" class="flip-return">Turn back <span aria-hidden="true">↶</span></button></div>
+          </div>
+        </article>
+        <article class="flip-card" data-flip-card>
+          <div class="flip-card-inner">
+            <div class="flip-face flip-front"><span class="card-index">02 / 03</span><span class="card-symbol" aria-hidden="true">⌁</span><h3>A lot of the internet depends on a few companies.</h3><button type="button" class="flip-trigger" aria-expanded="false">Turn to read the fact <span aria-hidden="true">↗</span></button></div>
+            <div class="flip-face flip-back" inert><span class="tag fact">Fact</span><p>In December 2025, a configuration mistake at Cloudflare took down sites like Zoom and LinkedIn for about 25 minutes (<a href="https://www.reuters.com/technology/cloudflare-restores-services-after-minor-dashboard-outage-2025-12-05/">Reuters</a>).</p><button type="button" class="flip-return">Turn back <span aria-hidden="true">↶</span></button></div>
+          </div>
+        </article>
+        <article class="flip-card" data-flip-card>
+          <div class="flip-card-inner">
+            <div class="flip-face flip-front"><span class="card-index">03 / 03</span><span class="card-symbol" aria-hidden="true">ϟ</span><h3>AI uses a huge amount of electricity.</h3><button type="button" class="flip-trigger" aria-expanded="false">Turn to read the fact <span aria-hidden="true">↗</span></button></div>
+            <div class="flip-face flip-back" inert><span class="tag fact">Fact</span><p>PJM runs the biggest power grid in the US, with 67 million customers. It proposed cutting power to data centers first during emergencies, unless they bring their own power supply (<a href="https://www.reuters.com/legal/litigation/pjm-unveils-plan-tackle-ai-driven-power-demand-surge-2026-01-16/">Reuters</a>, <a href="https://www.eenews.net/articles/pjm-tries-to-ease-threats-to-grid-from-supersize-data-centers/">E&amp;E News</a>).</p><button type="button" class="flip-return">Turn back <span aria-hidden="true">↶</span></button></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-future" id="future" aria-labelledby="future-title">
+      <div class="section-index"><span>04 / 04</span><span>What might come next</span></div>
+      <div class="future-layout"><div><p class="tag prediction">Prediction</p><h2 id="future-title">What might come next<span class="question">?</span></h2></div><blockquote>AI could really help with things like medicine, science, and education. But I don't think what matters most is how smart it gets. It's whether people stay in control, with backups, enough power, and a way to shut it off.</blockquote></div>
+      <div class="future-visual" aria-label="Possible futures: opportunities with human supervision">
+        <span>Medicine</span><span>Science</span><span>Education</span><span class="visual-center">Human supervision</span><span>Backups</span><span>Enough power</span><span>A way to shut it off</span>
+      </div>
+    </section>
+
+  </main>
+  <footer><span>Renata Abaroa</span><a href="about.html">How this website was made &amp; sources <span aria-hidden="true">↗</span></a></footer>
+</body>
+</html>
